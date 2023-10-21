@@ -3,7 +3,7 @@ Yleisesti koodin lähteistä: kaikki koodi itse kirjoitettua. Ei kopioitu Chat G
 
 Lähteet:
 
-Omat muistiinpanoni (GitHub repossa Word-tiedostot) JavaScriptiin, CSS ja HTML. (Muistiinpanot tehtnyt Juha Peltomäen kirjan, Traversy Median JS kurssin ja Chat GPT kanssa)
+Omat muistiinpanoni (GitHub repossa PDF tiedostot) JavaScriptiin, CSS ja HTML. (Muistiinpanot tehtnyt Juha Peltomäen kirjan, Traversy Median JS kurssin ja Chat GPT kanssa)
 
 GitHub repositorion lisääminen Netlifyihin
 https://www.youtube.com/watch?v=i9qCmQ2EeUA&t=76s
