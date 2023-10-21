@@ -114,6 +114,7 @@ body {
     background-color: var(--main-color1);
     padding: 1rem;
     border-radius: 1rem;
+    z-index: 2;
 }
 /* App container ENDS*/
 
@@ -281,7 +282,6 @@ p.list-item-content {
     background-color: var(--main-color1);
     padding: 1rem;
     border-radius: 1rem;
-    z-index: -1;
 }
 .sort-list-title-container:first-child {
     font-size: 2.2rem;
@@ -318,9 +318,8 @@ p.list-item-content {
 }
 /* ALL HOVER effects & transitions ENDS*/
 
-
-
 /* ANIMATIONS STARTS */
+
 @keyframes sort-box-animation-horizontal {
     from {
         transform: translateX(-300px)
@@ -334,6 +333,10 @@ p.list-item-content {
     animation-name: sort-box-animation-horizontal;
     animation-duration: 1s;
 }
+
+
+
+
 /* ANIMATIONS ENDS */
 
 
@@ -387,13 +390,13 @@ p.list-item-content {
 
     /* ANIMATION */
     @keyframes sort-box-animation-vertical {
-    from {
-        transform: translateY(-300px)
-    }
-
-    to {
-        transform:  translateY(0px);
-    }
+        from {
+            transform: translateY(-300px)
+        }
+    
+        to {
+            transform:  translateY(0px);
+        }
     }
     .sort-box-animation-vertical {
         animation-name: sort-box-animation-vertical;
