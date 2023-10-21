@@ -107,7 +107,7 @@ function newItem() {
         // Show alert and make it disapprea after 3 seconds
         const alertElement = document.createElement("p")
         alertElement.classList.toggle("alert-element")
-        alertElement.textContent = "Write something thats long and short enough you bozo!"
+        alertElement.textContent = "Write something thats long and short enough!"
         appContainer.insertAdjacentElement("afterbegin", alertElement)
         setTimeout(() => {
             alertElement.remove()

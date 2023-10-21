@@ -312,7 +312,7 @@ p.list-item-content {
 
 .sort-list-items-container > li:hover {
     cursor: pointer;
-    color: var(--main-color3);
+    color: rgb(0, 0, 0);
 }
 .clear-all-button:hover {
     cursor: pointer;
