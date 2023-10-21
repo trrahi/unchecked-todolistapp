@@ -247,7 +247,9 @@ p.list-item-content {
     border-style: none;
     outline: none;
 }
-
+.clear-all-button:visited {
+    color: var(--font-color1);
+}
 /* Completed items TITLE container ENDS*/
 
 
