@@ -404,4 +404,56 @@ p.list-item-content {
     }
 }
 
+@media (max-width: 900px) {
+    .everything-container {
+        margin-top: 4%;
+    }
+    .enter-bar-container {
+        margin-bottom: 15px;
+    }
+    .enter-bar {
+        font-size: 19px;
+    }
+    .list-item {
+        margin-block: 10px;
+        padding: 0.5rem;
+    }
+    .list-item-content {
+        font-size: 1rem;
+    }
+    .circle-icon {
+        width: 1.5rem;
+    }
+    .cross-icon {
+        width: 1rem;
+    }
+    .checkmark-checked-icon {
+        width: 1.5rem;
+    }
+    .completed-title-container {
+        margin-block: 0px;
+    }
+    .completed-title {
+        font-size: 1.5rem;
+    }
+    .clear-all-button {
+        font-size: 1rem;
+        padding: 0.5rem;
+        padding-inline: 1rem
+    }
+    .arrow-icon {
+        width: 1.5rem;
+        margin-left: 1rem
+    }
+    .sort-list-container {
+        font-size: 1rem;
+    }
+    .sort-list-title-container:first-child {
+        font-size: 1.5rem;
+    }
+    .sort-list-item {
+        font-size: 1rem;
+    }
+}
+
 /* MEDIA QUERIES ENDS */
