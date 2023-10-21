@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unchecked | To-do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Unchecked- todo list app contents STARTS -->
+    <div class="everything-container">
+    <!-- TODO LIST APP CONTAINER STARTS -->
+    <div class="app-container">
+        <!-- Container for the top bar -->
+        <div class="enter-bar-container">
+            <!-- Enter bar -->
+            <input type="text" class="enter-bar" placeholder="Write a task and press Enter ✍️">
+            <!-- Sort by logo -->
+            <img src="Materiaalit/Icons/sortby.svg" alt="" class="sort-by-icon enter-bar-icon icon hover-effect">
+            <!-- Three dots menu -->
+            <!-- <img src="Materiaalit/Icons/three-dots.svg" alt="" class="three-dots-icon enter-bar-icon icon"> -->
+        </div>
+        <!-- Top bar container ends -->
+
+
+
+
+        <!-- Main to-do list items container starts -->
+        <ul class="todo-list-items-container list-items-container">
+            <li class="todo-list-item list-item list-item1">
+                <img src="Materiaalit/Icons/circle.svg" alt="" class="circle-icon icon hover-effect">
+                <p class="list-item-content">This is a list item 📝</p>
+                <img src="Materiaalit/Icons/cross.svg" alt="" class="cross-icon icon hover-effect">
+            </li>
+            <li class="todo-list-item list-item list-item2">
+                <img src="Materiaalit/Icons/circle.svg" alt="" class="circle-icon icon hover-effect">
+                <p class="list-item-content">This is another list item 📝</p>
+                <img src="Materiaalit/Icons/cross.svg" alt="" class="cross-icon icon hover-effect">
+            </li>
+        </ul>
+        <!-- main to-do list items container ends -->
+
+
+
+
+        <!-- "Completed" title container starts -->
+        <div class="completed-title-container">
+            <h2 class="completed-title">Completed</h2>
+            <img src="Materiaalit/Icons/arrow-up.svg" alt="" class="arrow-icon-up arrow-icon icon hover-effect">
+            <button class="clear-all-button show-element">Clear All</button>
+        </div>
+        <!-- "Completed" title container ends -->
+
+
+
+
+
+        <!-- Completed list items container starts -->
+        <ul class="completed-list-items-container list-items-container">
+            <li class="completed-list-item list-item">
+                <img src="Materiaalit/Icons/checkmark-checked.svg" alt="" class="checkmark-checked-icon icon hover-effect">
+                <p class="list-item-content">This is a completed item ✅</p>
+                <img src="Materiaalit/Icons/cross.svg" alt="" class="cross-icon icon hover-effect">
+            </li>
+            <li class="completed-list-item list-item">
+                <img src="Materiaalit/Icons/checkmark-checked.svg" alt="" class="checkmark-checked-icon icon hover-effect">
+                <p class="list-item-content">This is another completed item ✅</p>
+                <img src="Materiaalit/Icons/cross.svg" alt="" class="cross-icon icon hover-effect">
+            </li>
+        </ul>
+        <!-- Completed list items container ends -->
+
+
+
+
+    </div>
+    <!-- TODO LIST APP CONTAINER ENDS-->
+
+    <!-- SORT ITEMS POP-UP MENU STARTS -->
+    <div class="sort-list-container hide-element sort-box-animation-vertical sort-box-animation-horizontal">
+        <div class="sort-list-title-container">
+            <h2>Sort By:</h2>
+        </div>
+        <ul class="sort-list-items-container">
+            <li class="sort-list-item sort-list-item1 selected-sorting-method">Default (newest first)</li>
+            <li class="sort-list-item sort-list-item2">Newest last</li>
+            <li class="sort-list-item sort-list-item3">Alphabetical A - Z</li>
+            <li class="sort-list-item sort-list-item4">Alphabetical Z - A</li>      
+        </ul>
+    </div>
+    <!-- SORT ITEMS POP-UP MENU ENDS-->
+    </div>
+    <!-- Unchecked- todo list app contents ENDS -->
+
+    <script src="script.js"></script>
+</body>
+</html>

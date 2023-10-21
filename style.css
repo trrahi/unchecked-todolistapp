@@ -1,0 +1,404 @@
+/* CSS reset STARTS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    font-size: 16px;
+}
+/* CSS reset ENDS*/
+
+:root {
+    /* General background */
+    --background-color1: #6897752b;
+    /* Enter bar */
+    --background-color2: #e4f4e5f3;
+
+
+    /* Main app background */
+    --main-color1: #689775;
+    /* List items */
+    --main-color2: #90bf9d;
+    /* Selected sorting method */
+    --main-color3: #2b6231;
+
+    
+
+    /* Cross button for delete item */
+    --secondary-color1: #eee16e;
+    /* Clear all button */
+    --secondary-color2: #c5b94d;
+
+    /* For all font */
+    --font-color1: #283434;
+    
+    --completed-arrow-icon: #282e2c;
+    
+    /* Clear all button */
+    --alert-color1: rgb(184, 29, 29);
+}
+
+
+
+
+/* Body CSS STARTS*/
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--font-color1);
+    background-color: var(--background-color1);
+    font-style: italic;
+    letter-spacing: 0.01rem;
+}
+/* Body CSS ENDS*/
+
+/* UNCHECKED todo list app container STARTS  */
+.everything-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 1rem;
+    margin-top: 4rem;
+    
+
+}
+/* UNCHECKED todo list app container STARTS  */
+
+
+/* App container STARTS*/
+.app-container {
+    grid-column: 2/3;
+    height: min-content;
+    background-color: var(--main-color1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/* App container ENDS*/
+
+
+  
+
+
+/* Enter bar container and enter bar STARTS */
+.enter-bar-container {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.enter-bar {
+    margin-inline: 1%;
+    width: 100%;
+    max-width: 100%;
+    color: var(--font-color1);
+    font-family: inherit;
+    font-size: 2.5rem;
+    background-color: var(--background-color2);
+    padding: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    border: 0px;
+    outline: 0px;
+}
+.enter-bar-icon {
+    width: 4rem;
+    margin-inline: 1rem;
+    opacity: 0.7;
+}
+/* Enter bar container and enter bar ENDS*/
+
+
+
+
+
+
+/* Global styling for ALL list items STARTS*/
+.list-item {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: max-content;
+    margin-inline: auto;
+    margin-block: .8rem;
+    max-width: 95%;
+
+    background-color: var(--main-color2);
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+}
+p.list-item-content {
+    margin-left: 20px;
+}
+.circle-icon {
+    width: 3rem;
+}
+.checkmark-checked-icon {
+    opacity: 0.8;
+    width: 3rem;
+}
+.cross-icon {
+    justify-self: end;
+
+    width: 2rem;
+    background-color: var(--secondary-color1);
+    border-radius: 1rem;
+    padding: 0.2rem;
+    padding-inline: 0.7rem;
+}
+.icon {
+    cursor: pointer;
+}
+/* Global styling for ALL list items ENDS*/
+
+
+
+
+
+
+/* Alert-element refers to the <p> tag alertElement which is triggered when user input does not pass validation STARTS*/
+.alert-element {
+    font-size: 2rem;
+    padding-block: 1.5rem;
+    padding-left: 1rem;
+}
+/* Alert-element refers to the <p> tag alertElement which is triggered when user input does not pass validation ENDS*/
+
+
+
+
+
+
+
+
+/* Completed items TITLE container STARTS*/
+.completed-title-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    align-items: center;
+    margin-block: 1.7rem;
+    max-width: 97%;
+    margin-inline: auto;
+}
+.completed-title {
+    font-size: 2.5rem;
+}
+.arrow-icon {
+    margin-left: 20px;
+    
+    width: 3rem;
+    opacity: 0.7;
+    background-color: var(--completed-arrow-icon);
+    border-radius: 5rem;
+}
+.clear-all-button {
+    justify-self: end;
+
+    background-color: var(--secondary-color2);
+    font-family: inherit;
+    font-style: italic;
+    font-size: 1.7rem;
+    padding-inline: 1.5rem;
+    padding-block: 0.3rem;
+    border-radius: 3rem;
+    border-style: none;
+    outline: none;
+}
+
+/* Completed items TITLE container ENDS*/
+
+
+
+
+
+
+/* General SHOW/HIDE item classes STARTS */
+.show-element {
+    display: block;
+}
+.hide-element {
+    display: none;
+}
+/* General SHOW/HIDE item classes ENDS*/
+
+
+
+
+
+/* Completed list items container STARTS */
+/* Completed list items container ENDS*/
+
+
+/* Sort by- list container and items STARTS */
+.sort-list-container {
+    justify-self: left;
+    height: min-content;
+    
+    font-size: 1.7rem;
+    letter-spacing: 0.5px;
+    background-color: var(--main-color1);
+    padding: 1rem;
+    border-radius: 1rem;
+    z-index: -1;
+}
+.sort-list-title-container:first-child {
+    font-size: 2.2rem;
+    margin-bottom: 10%;
+}
+.sort-list-item {
+    margin-block: 1rem;
+    background-color: var(--main-color2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.selected-sorting-method {
+    text-decoration: underline;
+    background-color: var(--main-color3);
+}
+/* Sort by- list container and items ENDS*/
+
+
+
+/* ALL HOVER effects & transitions STARTS*/
+.hover-effect:hover {
+    transform: scale(1.2);
+    transition: transform 0.1s ease-in-out;
+    opacity: 1;
+}
+
+.sort-list-items-container > li:hover {
+    cursor: pointer;
+    color: var(--main-color3);
+}
+.clear-all-button:hover {
+    cursor: pointer;
+    background-color: var(--alert-color1);
+}
+/* ALL HOVER effects & transitions ENDS*/
+
+
+
+/* ANIMATIONS STARTS */
+@keyframes sort-box-animation-horizontal {
+    from {
+        transform: translateX(-300px)
+    }
+
+    to {
+        transform:  translateX(0px);
+    }
+}
+.sort-box-animation-horizontal {
+    animation-name: sort-box-animation-horizontal;
+    animation-duration: 1s;
+}
+/* ANIMATIONS ENDS */
+
+
+
+
+
+/* MEDIA QUERIES START */
+@media (max-width: 1400px) {
+    .everything-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .app-container {
+        grid-column: 1;
+        justify-self: center;
+        width: 80%;
+    }
+    .enter-bar, .completed-title, .clear-all-button {
+        font-size: 2rem;
+    }
+    .list-item-content {
+        font-size: 1.5rem;
+    }
+    .icon {
+        width: 2rem;
+    }
+    .enter-bar-icon {
+        width: 2.7rem;
+    }
+    .clear-all-button {
+        padding: 1rem;
+    }
+    .sort-list-container {
+        justify-self: center;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 50%;
+    }
+    .sort-list-title-container:first-child {
+        font-size: 1.8rem;
+        margin-bottom: 1%;
+    }
+    .sort-list-items-container > li {
+        margin-block: 0.4rem;
+        padding: .6rem;
+    }
+    .clear-all-button {
+        font-size: 1.2rem;
+    }
+
+
+    /* ANIMATION */
+    @keyframes sort-box-animation-vertical {
+    from {
+        transform: translateY(-300px)
+    }
+
+    to {
+        transform:  translateY(0px);
+    }
+    }
+    .sort-box-animation-vertical {
+        animation-name: sort-box-animation-vertical;
+        animation-duration: 1.2s;
+    }
+}
+
+/* MEDIA QUERIES ENDS */
