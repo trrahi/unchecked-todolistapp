@@ -1,9 +1,9 @@
-Kaikki koodi ja algoritmit ovat itse tehtyjä ja ideoituja. JS, CSS ja HTML toimintaa opiskeltu lähteiden mukaisesti. Koodia ei ole generoitu ollenkaan ChatGPT:llä vaan sitä käytetty ainaostaan (HTML, CSS ja JS) toiminallisuuksien, ominaisuuksien ja syntaksin opetteluun.
+Yleisesti koodin lähteistä: kaikki koodi itse kirjoitettua. Ei kopioitu Chat GPT:stä, Stackoverflowsta, YouTube tutoriaaleista yms. Lähteitä pääasiassa käytetty omien muistiinpanojen tekemiseen kurssin aikana, ja projektia tehdessä silmäillyt ja tarkastanut asioita muistiinpanoista. Eli lähteistä olen pyrkinyt opiskelemaan yleisiä toiminnaliisuuksia, ominaisuuksia ja funktiooita/propertyjä/metodeita yleisellä tasolla, ja sitten soveltanut oppeja projektissa.
 
 
 Lähteet:
 
-Omat muistiinpanoni (GitHub repossa) JavaScriptiin, CSS ja HTML. (Muistiinpanot tehtnyt Peltomäen kirjan, Traversy Median JS kurssin ja Chat GPT kanssa)
+Omat muistiinpanoni (GitHub repossa Word-tiedostot) JavaScriptiin, CSS ja HTML. (Muistiinpanot tehtnyt Juha Peltomäen kirjan, Traversy Median JS kurssin ja Chat GPT kanssa)
 
 GitHub repositorion lisääminen Netlifyihin
 https://www.youtube.com/watch?v=i9qCmQ2EeUA&t=76s
